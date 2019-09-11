@@ -8,7 +8,7 @@ def my_each(arg)
   end
   arg
 else
-  puts "Missing Block."
+  print "Missing Block."
 end
 end
 
