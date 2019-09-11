@@ -8,12 +8,12 @@ def my_each(arg)
   end
   arg
 else
-  print "Missing Block."
+  return "Missing Block."
 end
 end
 
 arg = [1, 2, 3, 4]
 
 my_each(arg) do |i|
-  puts i
+  return i
 end
