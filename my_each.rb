@@ -7,5 +7,6 @@ def my_each(arg)
     i = i + 1
   end
   arg
-  
+else
+  puts "Missing Block."
 end
