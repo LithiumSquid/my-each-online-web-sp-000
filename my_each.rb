@@ -4,4 +4,5 @@ def my_each(arg)
     
   while i < arg.length
     yield(arg[i])
+    
 end
